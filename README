@@ -1,0 +1,19 @@
+Remote Acquisition Boot Environment (RABE): rabe-server_iso
+===========================================================
+
+This creates a basic RABE server installation ISO using the Ubuntu Server 14.04.1 LTS installation ISO.
+It downloads this ISO from the Ubuntu website. If it is already available in the 'images/' directory, it will use that one instead.
+One can also manually input an Ubuntu Server x86_64 installation ISO.
+After executing, the RABE server installation ISO can be found in the 'images/' directory.
+
+NAME
+	make_rabe-server_iso
+
+SYNOPSIS
+	./make_rabe-server_iso [-f ISO file]
+
+DESCRIPTION
+	Create Remote Acquisition Boot Environment (RABE) server installation ISO.
+
+	[-f ISO file]
+		manual Ubuntu Server x86_64 installation ISO input
